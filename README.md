@@ -1,3 +1,8 @@
+#Folder Stucture
+![](/Capture.PNG)
+
+Please click this [LINK](https://bbfan-1d9f0.web.app/) to see the app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
