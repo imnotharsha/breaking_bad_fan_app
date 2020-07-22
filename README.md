@@ -1,5 +1,5 @@
 #Folder Stucture
-![](/Capture.PNG)
+![](/src/Capture.PNG)
 
 Please click this [LINK](https://bbfan-1d9f0.web.app/) to see the app
 
