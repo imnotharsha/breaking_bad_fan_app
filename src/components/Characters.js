@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import axios from '../config/axios';
-import {connect} from 'react-redux';
-import {setAllCharacters} from '../actions/characterActions';
-import {getSingleCharacterInfo} from '../actions/characterActions';
+import { connect } from 'react-redux';
+import { setAllCharacters } from '../actions/characterActions';
+import { getSingleCharacterInfo } from '../actions/characterActions';
 import './Character.css';
 
 class Characters extends Component {
@@ -19,17 +19,18 @@ class Characters extends Component {
       status: '',
       img: '',
       nickname: '',
+      heel: '',
     };
   }
   componentDidMount() {
     this.props.dispatch(setAllCharacters());
   }
 
-  handleSearchChange = e => {
-    this.setState({input: e.target.value.substr(0, 20)});
+  handleSearchChange = (e) => {
+    this.setState({ input: e.target.value.substr(0, 20) });
   };
   handleToggle = () => {
-    this.setState(prev => {
+    this.setState((prev) => {
       return {
         visible: !prev.visible,
       };
@@ -44,7 +45,7 @@ class Characters extends Component {
     img,
     nickname
   ) => {
-    this.setState(prevState => {
+    this.setState((prevState) => {
       return {
         visible: !prevState.visible,
         char_id: char_id,
@@ -59,7 +60,7 @@ class Characters extends Component {
     this.props.dispatch(getSingleCharacterInfo(char_id));
   };
   render() {
-    let inputSearched = this.props.characters.filter(result => {
+    let inputSearched = this.props.characters.filter((result) => {
       return (
         result.name.toLowerCase().indexOf(this.state.input.toLowerCase()) !== -1
       );
@@ -78,7 +79,7 @@ class Characters extends Component {
           />
         </div>
         <div className='row_posters'>
-          {inputSearched.map(char => {
+          {inputSearched.map((char) => {
             return (
               <>
                 <li key={char.char_id} className='list_poster'>
@@ -113,13 +114,15 @@ class Characters extends Component {
               <h4>Nickname: {this.state.nickname}</h4>
               <h4>
                 Occupation:
-                {this.state.occupation.map(occ => {
+                {this.state.occupation.map((occ) => {
                   return <> {`'${occ}',`} </>;
                 })}
               </h4>
               <h5>Live or Dead: {this.state.status}</h5>
               <br />
-              <small style={{color: ' pink'}}>Click on here to hide Info</small>
+              <small style={{ color: ' pink' }}>
+                Click on here to hide Info
+              </small>
               <br />
               <br />
             </div>
@@ -139,7 +142,7 @@ class Characters extends Component {
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
     characters: state.characters,
     single: state.single,
