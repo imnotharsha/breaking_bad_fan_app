@@ -1,9 +1,9 @@
 Please click this [LINK](https://bbfan-1d9f0.web.app/) to see the app
 
 #ScreenShot of the Web APP
-![](/src/1.PNG)
-![](/src/2.PNG)
-![](/src/3.PNG)
+![](/src/1.png)
+![](/src/2.png)
+![](/src/3.png)
 
 #Folder Stucture
 ![](/src/Capture.PNG)
