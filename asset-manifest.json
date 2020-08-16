@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/breakingbad/static/css/main.b2131b15.chunk.css",
-    "main.js": "/breakingbad/static/js/main.d58f8217.chunk.js",
-    "main.js.map": "/breakingbad/static/js/main.d58f8217.chunk.js.map",
-    "runtime-main.js": "/breakingbad/static/js/runtime-main.1d26ae16.js",
-    "runtime-main.js.map": "/breakingbad/static/js/runtime-main.1d26ae16.js.map",
-    "static/js/2.8fc4f4d0.chunk.js": "/breakingbad/static/js/2.8fc4f4d0.chunk.js",
-    "static/js/2.8fc4f4d0.chunk.js.map": "/breakingbad/static/js/2.8fc4f4d0.chunk.js.map",
-    "index.html": "/breakingbad/index.html",
-    "precache-manifest.971adf60aca6de9be80397d38e427595.js": "/breakingbad/precache-manifest.971adf60aca6de9be80397d38e427595.js",
-    "service-worker.js": "/breakingbad/service-worker.js",
-    "static/css/main.b2131b15.chunk.css.map": "/breakingbad/static/css/main.b2131b15.chunk.css.map",
-    "static/js/2.8fc4f4d0.chunk.js.LICENSE.txt": "/breakingbad/static/js/2.8fc4f4d0.chunk.js.LICENSE.txt"
+    "main.css": "/breaking_bad_fan_app/static/css/main.b2131b15.chunk.css",
+    "main.js": "/breaking_bad_fan_app/static/js/main.d58f8217.chunk.js",
+    "main.js.map": "/breaking_bad_fan_app/static/js/main.d58f8217.chunk.js.map",
+    "runtime-main.js": "/breaking_bad_fan_app/static/js/runtime-main.eafa3645.js",
+    "runtime-main.js.map": "/breaking_bad_fan_app/static/js/runtime-main.eafa3645.js.map",
+    "static/js/2.2ac8b26f.chunk.js": "/breaking_bad_fan_app/static/js/2.2ac8b26f.chunk.js",
+    "static/js/2.2ac8b26f.chunk.js.map": "/breaking_bad_fan_app/static/js/2.2ac8b26f.chunk.js.map",
+    "index.html": "/breaking_bad_fan_app/index.html",
+    "precache-manifest.76bb2e74778a446367cdc2cdd70a9ba3.js": "/breaking_bad_fan_app/precache-manifest.76bb2e74778a446367cdc2cdd70a9ba3.js",
+    "service-worker.js": "/breaking_bad_fan_app/service-worker.js",
+    "static/css/main.b2131b15.chunk.css.map": "/breaking_bad_fan_app/static/css/main.b2131b15.chunk.css.map",
+    "static/js/2.2ac8b26f.chunk.js.LICENSE.txt": "/breaking_bad_fan_app/static/js/2.2ac8b26f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1d26ae16.js",
-    "static/js/2.8fc4f4d0.chunk.js",
+    "static/js/runtime-main.eafa3645.js",
+    "static/js/2.2ac8b26f.chunk.js",
     "static/css/main.b2131b15.chunk.css",
     "static/js/main.d58f8217.chunk.js"
   ]
