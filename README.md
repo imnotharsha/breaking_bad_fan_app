@@ -1,14 +1,12 @@
-Please click this [LINK](https://bbfan-1d9f0.web.app/) to see the app
+Please click this [link](https://imnotharsha.github.io/breaking_bad_fan_app/) or this
+[LINK](https://bbfan-1d9f0.web.app/) to see the app
 
 #ScreenShot of the Web APP
 ![](/1.png)
 ![](/2.png)
 ![](/3.png)
 
-#Folder Stucture
-![](/Capture.PNG)
-
-Please click this [LINK](https://bbfan-1d9f0.web.app/) to see the app
+#Folder Stucture ![](/Capture.PNG)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
